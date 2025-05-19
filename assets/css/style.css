@@ -408,29 +408,15 @@ a:hover{
 
 .hero-portrait .pic {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 30px;
+    top: 70px;
     bottom: 0;
     width: 40vw;
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
 }
-.pic img {
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    right: 40px;
-    top:90px;
-    border-radius: 12px;         /* Smooth rounded corners */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Soft shadow */
-    object-fit: cover;           /* Ensures the image fills its box */
-    transition: transform 0.3s ease;
-}
 
-.pic img:hover {
-    transform: scale(1.03);      /* Slight zoom on hover */
-}
 
 @media (max-width: 576px) {
     #hero {
@@ -454,7 +440,10 @@ a:hover{
 
     .hero-portrait .pic {
         width: 100%;
-        background-size: cover;
+        top:10px;
+        right: 10px;
+        background-size: full;
+        visibility: hidden;
         background-position: center;
         background-repeat: no-repeat;
         background-image: url(/assets/images/portrait.webp);
