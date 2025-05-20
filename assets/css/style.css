@@ -409,7 +409,7 @@ a:hover{
 .hero-portrait .pic {
     position: absolute;
     right: 30px;
-    top: 90px;
+    top: 120px;
     bottom: 0;
     width: 40vw;
     background-size: contain;
